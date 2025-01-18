@@ -138,7 +138,5 @@ class MagicAI(object):
         _, move = minimax(board, stone, depth=depth, maximizing_player=True, alpha=-float('inf'), beta=float('inf'))
         return move
 
-!pip install -U kogi-canvas
-
 from kogi_canvas import play_othello
 play_othello(MagicAI())
