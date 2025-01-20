@@ -129,7 +129,7 @@ def minimax(board, stone, depth, maximizing_player, alpha, beta):
 
 class MagicAI(object):
     def face(self):
-        return "🪄"
+        return "⛄"
 
     def place(self, board, stone):
         # Dynamic depth adjustment
